@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transportation CO2 Emissions</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Title Section -->
+      <div class="title-section">
+        <h1>
+          Worldwide Transportation <br />
+          -CO2 Emissions
+        </h1>
+        <h3>Distribution by Sector *2022</h3>
+
+        <!-- Chart and Legend Section -->
+        <div class="chart-legend-container">
+          <!-- Legend Section -->
+          <div class="legend">
+            <ul>
+              <li><span class="color cars-vans"></span> Cars and Vans</li>
+              <li>
+                <span class="color heavy-freight-vehicles"></span> Heavy Freight
+                Vehicles
+              </li>
+              <li>
+                <span class="color medium-freight-vehicles"></span> Medium
+                Freight Vehicles
+              </li>
+              <li>
+                <span class="color international-shipping"></span> International
+                Shipping
+              </li>
+              <li>
+                <span class="color international-aviation"></span> International
+                Aviation
+              </li>
+              <li><span class="color bus"></span> Bus</li>
+              <li>
+                <span class="color domestic-aviation"></span> Domestic Aviation
+              </li>
+              <li><span class="color rail"></span> Rail</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Donut Chart -->
+      <div id="chart"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
